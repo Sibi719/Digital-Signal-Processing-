@@ -1,0 +1,10 @@
+clc;
+clear all;
+n=input('Enter the value of n');
+t=0:0.01:n;
+y=cos(2*pi*10*t);
+stem(t,y);
+axis([0 n+1 -2 2]);
+title('SINE WAVE');
+xlabel('n');
+ylabel('Amplitude');
